@@ -1,0 +1,7 @@
+numpy
+mahotas
+xgboost
+imblearn
+tensorflow==2.5
+opencv-python
+matplotilib
