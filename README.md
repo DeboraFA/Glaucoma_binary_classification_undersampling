@@ -16,6 +16,7 @@ No arquivo load_dataset o formato de entrada dos dataset são:
 --Classe 1 
 
 -Imagem 1 
+
 -Imagem 2
 
 ... 
@@ -23,13 +24,12 @@ No arquivo load_dataset o formato de entrada dos dataset são:
 --Classe 2 
 
 -Imagem 1 
+
 -Imagem 2
 
 
 
-
-
-As classes devem possuir o mesmo nome nos diferentes diretórios, as classes foram renomeadas para 0_Normal e 1_Glaucoma em todos os dataset. \n
+As classes devem possuir o mesmo nome nos diferentes diretórios, as classes foram renomeadas para 0_Normal e 1_Glaucoma em todos os dataset.
 
 As análises foram realizadas com o merge dos datasets e com o balanceamento entre as classes de dados. 
 São utilizados os métodos para selecionar a classe normal/não-glaucoma: 
