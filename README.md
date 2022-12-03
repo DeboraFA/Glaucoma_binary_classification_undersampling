@@ -11,9 +11,11 @@ Na pasta CrossDataset estão os modelos com cross dataset, no qual são treinado
 
 No arquivo load_dataset o formato de entrada dos dataset são:
 
-------Diretório //
-----Classe 1 //
---Imagem 1 //
+------Diretório 
+
+----Classe 1 
+
+--Imagem 1 
 --Imagem 2 
 ... 
 ----Classe 2 
