@@ -2,6 +2,8 @@
 
 Todas as análises foram realizadas na versão Python 3.8.13
 
+O conjunto de features de cada modelo de extração e suas labels estão disponíveis em https://bityli.com/SfeswYfgS
+
 Na pasta Classificacao_ML_tradicional estão: modelo de extração de características por métodos de extração tradicional como LBP, HOG, Zernike e filtros de Gabor; 
 e os modelos de transfer learning para extração de características. A classificação é realizada com SVM, MLP, XGB e voting.
 
