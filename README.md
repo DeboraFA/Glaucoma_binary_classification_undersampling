@@ -1,41 +1,41 @@
 # Glaucoma_binary_classification_undersampling
 
-Todas as análises foram realizadas na versão Python 3.8.13
+The analysis were performed in Python version 3.8.13
 
-O conjunto de features de cada modelo de extração e suas labels estão disponíveis em https://bityli.com/SfeswYfgS
+The features and labels to each extraction model are available at https://drive.google.com/file/d/13lrwFIE5s1TdEK1hb0ETaszFMrNgkVfD/view?usp=sharing
 
-Na pasta Classificacao_ML_tradicional estão: modelo de extração de características por métodos de extração tradicional como LBP, HOG, Zernike e filtros de Gabor; 
-e os modelos de transfer learning para extração de características. A classificação é realizada com SVM, MLP, XGB e voting.
+In the Classificacao_ML_tradicional folder are: feature extraction model by traditional extraction methods such as LBP, HOG, Zernike, and Gabor filters;
+Furthermore, transfer learning models for feature extractions. The classification is done using SVM, MLP, XGB, and voting classifiers.
 
-Na pasta Classificacao_TransferLearning_DL estão os modelos de transfer learning para extração e classificação das imagens.
+In the Classificacao_TransferLearning_DL folder are the transfer learning models for extracting and classifying the images.
 
-Na pasta CrossDataset estão os modelos com cross dataset, no qual são treinados dois dataset e testado em um dataset diferente.
+In the CrossDataset folder are models with the cross dataset, in which two datasets are trained and tested on a different dataset.
 
-No arquivo load_dataset o formato de entrada dos dataset são:
+In the load_dataset file, the input dataset formats are:
 
----Diretório 
+---Folder 
 
---Classe 1 
+--Class 1 
 
--Imagem 1 
+-Image 1 
 
--Imagem 2
+-Image 2
 
 ... 
 
---Classe 2 
+--Class 2 
 
--Imagem 1 
+-Image 1 
 
--Imagem 2
+-Image 2
 
 
 
-As classes devem possuir o mesmo nome nos diferentes diretórios, as classes foram renomeadas para 0_Normal e 1_Glaucoma em todos os dataset.
+The classes must have the same name in different directories, the classes have been renamed to 0_Normal and 1_Glaucoma in all datasets.
 
-As análises foram realizadas com o merge dos datasets e com o balanceamento entre as classes de dados. 
-São utilizados os métodos para selecionar a classe normal/não-glaucoma: 
-- Random (separação aleatória) 
+The analyzes were performed by merging the datasets and balancing the data classes.
+The methods for selecting the normal/non-glaucoma class are used:
+- Random 
 - Cluster centróide 
 - Near Miss 
 
